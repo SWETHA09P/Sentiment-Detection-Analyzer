@@ -1,8 +1,8 @@
 # 🐦Tweet Sentiment Analyzer📊
 
-In this project, we will use a dataset of tweets as the source of data. Implement the requirements below using one or more Python scripts. Along with these, a short explanatory text will be provided, explaining the solution and how to run the scripts.
+In this project, i will use a dataset of tweets as the source of data. Implement the requirements below using one or more Python scripts. Along with these, a short explanatory text will be provided, explaining the solution and how to run the scripts.
 
-**Note:** Due to privacy policies, I am not allowed to post the dataset publicly.
+
 
 ---
 
@@ -16,10 +16,7 @@ In this project, we will use a dataset of tweets as the source of data. Implemen
 
 ## Predominant Sentiment in Each Tweet🧠
 
-The tweets in the data source contain various texts, and we need to decide if they express a positive or negative sentiment. For each tweet in the input file, calculate the sentiment by summing the sentiment scores of each word in the tweet. For certain more frequent words, the scores are found in the `sentiment_scores.txt` file. For words that do not appear in the given list, the score will be considered 0.
-
-**Hint:**  
-To read the tweets from the input file, you can use the [json module](https://docs.python.org/2/library/json.html).
+The tweets in the data source contain various texts, and we need to decide if they express a positive or negative sentiment. For each tweet in the input file, calculate the sentiment by summing the sentiment scores of each word in the tweet. For certain more frequent words, the scores are found in the `sentiment_scores.txt` file.
 
 ---
 
